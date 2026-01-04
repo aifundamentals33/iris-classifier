@@ -17,5 +17,3 @@ matplotlib
 pandas
 pytest
 scikit-learn
-flask
-flask-cors
