@@ -7,7 +7,8 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bash start.sh"
   },
   "keywords": [],
   "author": "",
@@ -25,9 +26,11 @@
     "postgres": "^3.4.7",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "vite": "^7.3.0",
     "wouter": "^3.9.0",
     "zod": "^4.3.5"
-  }
+  },
+  "type": "module"
 }

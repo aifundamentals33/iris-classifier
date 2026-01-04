@@ -10,7 +10,7 @@ sleep 2
 
 # Start Express + Vite server
 echo "Starting Express server on port 5000..."
-node server/index.js
+npx tsx server/index.ts
 
 # If Express exits, kill Flask
 kill $ML_PID

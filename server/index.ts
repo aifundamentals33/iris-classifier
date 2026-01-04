@@ -18,7 +18,7 @@ async function startServer() {
 
   app.use(vite.middlewares);
 
-  const { default: routes } = await import("./routes.js");
+  const routes = (await import("./routes.js")).default;
   app.use(routes);
 
   const PORT = process.env.PORT || 5000;
