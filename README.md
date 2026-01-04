@@ -5,7 +5,7 @@ A complete machine learning project structure for training and evaluating a Deci
 ## Project Structure
 
 ```
-iris_project/
+.
 ├── notebooks/          # Jupyter notebooks for exploration
 ├── outputs/            # Saved models and plots
 ├── src/                # Source code
